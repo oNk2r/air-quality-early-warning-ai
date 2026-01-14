@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Early Warning & Advisory System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Air Quality Early Warning & Advisory System</h1>
+            <p class="subtitle">AI-Powered Public Health Advisory</p>
+            <div class="sdg-badges">
+                <span class="sdg-badge">SDG 3</span>
+                <span class="sdg-badge">SDG 11</span>
+                <span class="sdg-badge">SDG 13</span>
+            </div>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <h2>Input Air Quality Data</h2>
+                <form id="aqi-form">
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Enter city name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="aqi">Air Quality Index (AQI)</label>
+                        <input type="number" id="aqi" name="aqi" min="0" max="500" placeholder="0-500" required>
+                        <small class="help-text">Enter AQI value between 0 and 500</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">Time of Day</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select time of day</option>
+                            <option value="morning">Morning (6:00 AM - 12:00 PM)</option>
+                            <option value="afternoon">Afternoon (12:00 PM - 6:00 PM)</option>
+                            <option value="evening">Evening (6:00 PM - 10:00 PM)</option>
+                            <option value="night">Night (10:00 PM - 6:00 AM)</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Analyze Air Quality</button>
+                </form>
+            </section>
+
+            <section class="output-section" id="output-section" style="display: none;">
+                <h2>Air Quality Advisory</h2>
+                <div class="advisory-card" id="advisory-card">
+                    <div class="aqi-category" id="aqi-category"></div>
+                    <div class="advisory-content" id="advisory-content"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="info-section">
+            <div class="disclaimer">
+                <h3>Disclaimer</h3>
+                <p>This system provides general air quality advisories for informational purposes only. This advisory is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

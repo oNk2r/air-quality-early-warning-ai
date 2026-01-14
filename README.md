@@ -1,1 +1,3 @@
-This project is a conceptual AI prototype that predicts short-term air quality risk and provides actionable health advisories to urban residents.
+# AI-Powered Air Quality Early Warning & Advisory System
+
+A prototype system for analyzing air quality data and generating actionable public health advisories using AI-powered decision logic.
