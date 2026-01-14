@@ -1,2 +1,1 @@
-# AI-Based-Air-Quality-Decision-Support-System
-A web-based AI decision-support prototype that interprets air quality data, predicts short-term AQI trends, and provides actionable health guidance to support sustainable urban living.
+This project is a conceptual AI prototype that predicts short-term air quality risk and provides actionable health advisories to urban residents.
