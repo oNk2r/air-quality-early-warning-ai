@@ -1,0 +1,13 @@
+Analyze the air quality situation and provide an advisory:
+
+City: {city}
+Current AQI: {aqi_value}
+Time of Day: {time_of_day}
+
+Please provide:
+1. AQI category interpretation
+2. Health implications
+3. Recommended actions
+4. Special considerations for sensitive groups (if applicable)
+5. Outlook for the day
+
