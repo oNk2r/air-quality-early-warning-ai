@@ -109,20 +109,19 @@ N95 mask for everyone during outdoor exposure
 ## 🏗️ Architecture
 
 User Input (City, AQI, Health Profile)
-
-↓
+-->
 Flask API Endpoint
-↓
+-->
 RAG System (LangChain + ChromaDB)
-↓
+-->
 Vector Search: Find relevant health guidelines
-↓
+-->
 Context Assembly: Combine relevant information
-↓
+-->
 Advisory Generation:Personalized recommendations
-↓
+-->
 JSON Response to Frontend
-↓
+-->
 Display: Color-coded, categorized advisory
 
 
@@ -160,3 +159,18 @@ Display: Color-coded, categorized advisory
 ---
 
 ## 📝 Project Structure
+```
+aqi-health-advisory-system/
+│
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── backend.py 
+├── data/
+│   └── health_guidelines.txt
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
