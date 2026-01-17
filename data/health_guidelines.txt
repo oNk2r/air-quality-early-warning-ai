@@ -1,0 +1,111 @@
+Air Quality Index: 0-50 (Good)
+Health Implications: Air quality is satisfactory, and air pollution poses little or no risk.
+General Population: Enjoy your usual outdoor activities.
+Sensitive Groups: No precautions needed.
+Outdoor Exercise: Safe for all activities including running, cycling, and sports.
+Children: Can play outside freely.
+Elderly: Normal outdoor activities are safe.
+
+Air Quality Index: 51-100 (Moderate)
+Health Implications: Air quality is acceptable. However, there may be a risk for some people, particularly those who are unusually sensitive to air pollution.
+General Population: Unusually sensitive people should consider reducing prolonged or heavy outdoor exertion.
+Sensitive Groups: People with asthma should watch for symptoms and follow their asthma action plan.
+Outdoor Exercise: Reduce prolonged or heavy exertion if you experience symptoms.
+Children: Active children and adults should limit prolonged outdoor exertion.
+Elderly: Older adults should reduce prolonged outdoor activities.
+
+Air Quality Index: 101-150 (Unhealthy for Sensitive Groups)
+Health Implications: Members of sensitive groups may experience health effects. The general public is less likely to be affected.
+General Population: People with heart or lung disease, older adults, and children should reduce prolonged or heavy outdoor exertion.
+Sensitive Groups: People with asthma should follow their asthma action plan and keep quick-relief medicine handy.
+Outdoor Exercise: Reduce prolonged or heavy outdoor exertion. Take more breaks during outdoor activities.
+Children: Reduce prolonged outdoor play and sports activities.
+Elderly: Minimize outdoor activities, especially strenuous ones.
+Additional Precautions: Consider wearing N95 masks when outdoors. Close windows to keep indoor air clean.
+
+Air Quality Index: 151-200 (Unhealthy)
+Health Implications: Some members of the general public may experience health effects; members of sensitive groups may experience more serious health effects.
+General Population: Everyone should reduce prolonged or heavy outdoor exertion.
+Sensitive Groups: People with heart or lung disease, older adults, and children should avoid prolonged or heavy exertion. Keep windows closed and use air purifiers.
+Outdoor Exercise: Avoid prolonged outdoor exertion. Consider indoor alternatives.
+Children: Avoid outdoor play and keep children indoors.
+Elderly: Stay indoors and minimize physical activity.
+Additional Precautions: Wear N95 or N99 masks if you must go outside. Use air purifiers indoors. Avoid cooking with gas stoves.
+
+Air Quality Index: 201-300 (Very Unhealthy)
+Health Implications: Health alert: The risk of health effects is increased for everyone.
+General Population: Everyone should avoid prolonged or heavy exertion outdoors.
+Sensitive Groups: People with heart or lung disease, older adults, and children should remain indoors and keep activity levels low.
+Outdoor Exercise: Move all activities indoors or reschedule.
+Children: Keep children indoors with minimal physical activity.
+Elderly: Remain indoors. Avoid all physical exertion.
+Additional Precautions: Use N99 or P100 respirators if outdoor exposure is unavoidable. Use HEPA air purifiers. Seal windows and doors. Avoid traffic and industrial areas.
+
+Air Quality Index: 301-500 (Hazardous)
+Health Implications: Health warning of emergency conditions: everyone is more likely to be affected.
+General Population: Everyone should avoid all outdoor exertion and remain indoors with air purifiers running.
+Sensitive Groups: Remain indoors in a clean air environment. Consider evacuation if conditions persist.
+Outdoor Exercise: Cancel all outdoor activities. Do not go outside.
+Children: Keep indoors with air purifiers. Minimize all physical activity.
+Elderly: Remain indoors. Seek medical attention if experiencing symptoms.
+Additional Precautions: Emergency measures. Use P100 respirators only if evacuation is necessary. Seal all windows and doors. Consider relocating to areas with better air quality. Monitor health symptoms closely and seek medical help if needed.
+
+Asthma Considerations:
+For people with asthma, air quality levels above 100 can trigger symptoms including coughing, wheezing, shortness of breath, and chest tightness.
+Keep rescue inhalers readily available at all times.
+Follow your asthma action plan carefully.
+Monitor peak flow readings more frequently during poor air quality days.
+Consider using a nebulizer indoors if symptoms worsen.
+Consult your doctor if you need to use your rescue inhaler more than twice in a week.
+
+Cardiovascular Concerns:
+People with heart disease should be extra cautious when AQI exceeds 100.
+Watch for symptoms like chest pain, rapid heartbeat, shortness of breath, or unusual fatigue.
+Avoid strenuous activities that increase heart rate.
+Take prescribed medications as directed.
+Seek immediate medical attention if experiencing chest pain or severe shortness of breath.
+
+Children's Health:
+Children's lungs are still developing, making them more vulnerable to air pollution.
+Children breathe faster than adults, inhaling more air and pollutants relative to body weight.
+Symptoms to watch: persistent cough, difficulty breathing, reduced energy during play.
+Keep children hydrated to help their bodies cope with pollution.
+Use air purifiers in children's bedrooms and play areas.
+
+Indoor Air Quality Tips:
+Use HEPA air purifiers rated for your room size.
+Keep windows and doors closed when outdoor AQI is above 100.
+Avoid activities that create indoor pollution: smoking, burning candles, frying food.
+Use exhaust fans when cooking.
+Consider indoor plants that help purify air: spider plants, peace lilies, snake plants.
+Change HVAC filters regularly, use MERV 13 or higher rated filters.
+Run air purifiers continuously during poor air quality episodes.
+
+Time of Day Considerations:
+Air quality typically worst during morning rush hour (7-9 AM) and evening (5-8 PM) due to traffic.
+Ozone levels peak in afternoon on sunny days (12 PM - 4 PM).
+Best air quality usually occurs late at night and early morning (2-6 AM).
+Plan outdoor activities during times with better air quality when possible.
+
+Weather Impact:
+Wind helps disperse pollutants - light winds can worsen air quality.
+Rain cleanses the air and improves air quality temporarily.
+Temperature inversions trap pollutants close to ground, worsening air quality.
+High humidity can make pollution feel worse and affect breathing.
+
+Mask Recommendations:
+AQI 0-50: No mask needed
+AQI 51-100: Cloth mask for sensitive individuals
+AQI 101-150: N95 mask recommended for sensitive groups
+AQI 151-200: N95 mask for everyone during outdoor exposure
+AQI 201-300: N99 or P100 respirator required
+AQI 301+: P100 respirator only for emergency evacuation
+
+Long-term Health Effects:
+Chronic exposure to poor air quality increases risk of:
+- Respiratory diseases and reduced lung function
+- Cardiovascular disease and stroke
+- Lung cancer
+- Premature death
+- Developmental issues in children
+Regular exposure to AQI above 150 should prompt consideration of relocation or enhanced protective measures.

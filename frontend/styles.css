@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 9px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: white;
+    padding: 40px 30px;
+    text-align: center;
+    color: black;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.header p {
+    font-size: 15px;
+    margin-bottom: 24px;
+    color: #666;
+    font-weight: 400;
+}
+
+.sdg-badges {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.sdg-badge {
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Input Section */
+.input-section {
+    padding: 40px 30px;
+}
+
+.input-section h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+    font-size: 18px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 400;
+    transition: border-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group small {
+    display: block;
+    margin-top: 6px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 16px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+
+.submit-btn:active {
+    opacity: 0.8;
+}
+
+/* Loading State */
+.loading {
+    text-align: center;
+    padding: 40px;
+    display: none;
+}
+
+.loading.active {
+    display: block;
+}
+
+.loading p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 16px;
+}
+
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Results Section */
+.results {
+    padding: 30px;
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.results.active {
+    display: block;
+}
+
+.results h2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: black;
+    font-size: 1.75rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.aqi-header {
+    text-align: center;
+    padding: 24px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.aqi-header.good {
+    background: #90EE90;
+}
+
+.aqi-header.moderate {
+    background: #FFA500;
+}
+
+.aqi-header.unhealthy-sensitive {
+    background: #FF8C00;
+}
+
+.aqi-header.unhealthy {
+    background: #FF4500;
+}
+
+.aqi-header.very-unhealthy {
+    background: #8B00FF;
+    color: white;
+}
+
+.aqi-header.hazardous {
+    background: #8B4513;
+    color: white;
+}
+
+.aqi-value {
+    font-size: 1rem;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.aqi-category {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.advisory-section {
+    background: #f8f9fa;
+    border-left: 4px solid #333;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.advisory-section h3 {
+    color: #333;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.advisory-section p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.warning-box {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.warning-box h4 {
+    color: #856404;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.warning-box p {
+    color: #856404;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.results hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.disclaimer {
+    background: #fff3cd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.disclaimer h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.125rem;
+}
+
+.disclaimer p {
+    color: #856404;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background: #f8f9fa;
+    padding: 25px;
+    text-align: center;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer p strong {
+    font-weight: 800;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .header {
+        padding: 30px 20px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .input-section {
+        padding: 30px 20px;
+    }
+
+    .input-section h2 {
+        font-size: 1.25rem;
+    }
+
+    .results {
+        padding: 20px;
+    }
+
+    .results h2 {
+        font-size: 1.5rem;
+    }
+
+    .advisory-section h3 {
+        font-size: 1.125rem;
+    }
+
+    .aqi-category {
+        font-size: 1rem;
+    }
+}
+

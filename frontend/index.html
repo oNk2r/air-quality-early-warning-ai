@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality Health Advisory System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Air Quality Early Warning & Advisory System</h1>
+            <p>AI-Powered Public Health Advisory</p>
+            <div class="sdg-badges">
+                <span class="sdg-badge">SDG 3 Good Health</span>
+                <span class="sdg-badge">SDG 11 Sustainable Cities</span>
+                <span class="sdg-badge">SDG 13 Climate Action</span>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <h2>Input Air Quality Data</h2>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" value="delhi" placeholder="Enter your city">
+            </div>
+            <div class="form-group">
+                <label for="aqi">Air Quality Index (AQI)</label>
+                <input type="number" id="aqi" value="100" min="0" max="500" placeholder="Enter AQI (0-500)">
+                <small>Enter AQI value between 0 and 500</small>
+            </div>
+            <div class="form-group">
+                <label for="profile">Health Profile</label>
+                <select id="profile">
+                    <option value="general">General Population</option>
+                    <option value="asthma">Asthma</option>
+                    <option value="heart disease">Heart Disease</option>
+                    <option value="elderly">Elderly</option>
+                    <option value="children">Children</option>
+                    <option value="pregnant">Pregnant</option>
+                </select>
+            </div>
+            <button class="submit-btn" onclick="getAdvisory()">ANALYZE AIR QUALITY</button>
+        </div>
+
+        <!-- Loading State -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Analyzing air quality...</p>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results" id="results">
+            <h2>Air Quality Advisory</h2>
+            
+            <div class="aqi-header" id="aqiHeader">
+                <div class="aqi-category" id="aqiCategory"></div>
+                <div class="aqi-value" id="aqiValue"></div>
+            </div>
+
+            <div class="advisory-section">
+                <h3>Health Implications</h3>
+                <p id="healthImplications"></p>
+            </div>
+
+            <div class="advisory-section">
+                <h3>Recommended Actions</h3>
+                <p id="generalAdvice"></p>
+            </div>
+
+            <div class="advisory-section">
+                <h3>Special Considerations for Sensitive Groups</h3>
+                <p id="sensitiveGroups"></p>
+            </div>
+
+            <div class="advisory-section">
+                <h3>Outdoor Activities</h3>
+                <p id="outdoorActivities"></p>
+            </div>
+
+            <div class="advisory-section">
+                <h3>Protective Measures</h3>
+                <p id="protectiveMeasures"></p>
+            </div>
+
+            <div class="advisory-section">
+                <h3>Mask Recommendation</h3>
+                <p id="maskRecommendation"></p>
+            </div>
+
+            <div class="warning-box" id="warningBox" style="display: none;">
+                <h4>⚠️ Warning</h4>
+                <p>Air quality is unhealthy. Please take necessary precautions and limit outdoor exposure.</p>
+            </div>
+
+            <hr>
+
+            <div class="disclaimer">
+                <h4>Disclaimer</h4>
+                <p>This system provides general air quality advisories for informational purposes only. This advisory is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>AI for Sustainability</strong></p>
+            <p>prototype project</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
